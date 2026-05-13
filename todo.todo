@@ -1,7 +1,55 @@
-[]1-Setup & BDD : 
-[]    -migrations
-[]    -seeder
-[]    -routes
-[]    -squelettes
+[X]1-Setup & BDD : 
+[X]    -migrations
+[X]    -seeder
+[X]    -routes
+[X]    -squelettes
 
+[]2-Authentification:
+[X] login   : -Model : EmployeModel
+            []-Controller : AuthController
+            []-View : auth/login.php
+
+[] session
+[X] insertion donnee test
+[] filtre 3 roles(admin,employe,rh)
+
+
+[] 3-Espace employe
+[] Soumettre conge (employe/create.php)
+[] Lister les conges (employe/index.php)
+[] Solde (employe/dashboard.php)
+[] Annuler conge (employe/index.php)
+
+[] 4-Espace RH
+[] Approuver/refuser + MAJ(solde) (rh/index.php)
+[] solde (rh/index.php)
+
+[] 5-Back-office admin
+[] CRUD employes + dashboard (admin/dashboard.php)
+
+[] 6-Finition
+[] template
+[] flashdata
+[] README
+
+Structure view:
+    CONNEXION : auth/login.php
+    DASHBOARD EMPLOYE : employe/dashboard.php
+    DASHBOARD RH : rh/index.php
+    DASHBOARD ADMIN : admin/dashboard.php
+    LISTE EMPLOYES : employe/employes.php
+    FORMULAIRE CONGE : employe/create.php
+    TEMPLATE : template.html
+
+Login : Employe -> Dashboard Employe
+        RH -> Dashboard RH
+        Admin -> Dashboard Admin
+
+Employe -> Soumettre conge -> Lister les conges
+         -> Solde
+         -> Annuler conge
+
+RH -> Approuver/refuser conge -> MAJ solde
+
+Admin -> CRUD employes -> Dashboard Admin
 
