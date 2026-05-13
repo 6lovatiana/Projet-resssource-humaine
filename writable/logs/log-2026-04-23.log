@@ -1,0 +1,26 @@
+CRITICAL - 2026-04-23 09:05:38 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/Database.php on line 147.
+ 1 SYSTEMPATH/Database/Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Model.php(150): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Controllers/Home.php(16): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->test()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-23 09:06:15 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/Database.php on line 147.
+ 1 SYSTEMPATH/Database/Database.php(61): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Model.php(150): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Controllers/Home.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->test()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
