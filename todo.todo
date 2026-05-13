@@ -15,8 +15,11 @@
 
 
 [] 3-Espace employe
-[] Soumettre conge (employe/create.php)
-[] Lister les conges (employe/index.php)
+[] Soumettre conge (employe/create.php):
+    -Formulaire : date debut, date fin, type conge, raison
+    -Controller : CongeController -> create()
+[] Lister les conges (employe/index.php):
+
 [] Solde (employe/dashboard.php)
 [] Annuler conge (employe/index.php)
 
