@@ -10,6 +10,7 @@ $routes->post('/login', 'AuthController::authenticate');
 
 $routes->group('employe', function ($routes) {
     $routes->get('dashboard', 'EmployeController::dashboard');
+    $routes->get('demandes', 'EmployeController::liste');
 });
 
 $routes->group('rh', function ($routes) {
